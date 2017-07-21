@@ -10,6 +10,8 @@ import redis.clients.jedis.JedisPoolConfig;
 // dependency, 三角
 // transaction
 // test
+// json
+// exercise
 
 // profileSearch
 // profileView
