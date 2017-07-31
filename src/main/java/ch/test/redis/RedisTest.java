@@ -16,6 +16,16 @@ import redis.clients.jedis.JedisPoolConfig;
 // profileSearch
 // profileView
 // mq
+
+// http://docs.spring.io/spring/docs/4.2.x/javadoc-api/org/springframework/context/annotation/Bean.html
+// https://docs.spring.io/spring/docs/2.0.8/javadoc-api/org/springframework/beans/factory/config/PropertyResourceConfigurer.html
+// BeanFactoryPostProcessor
+// http://www.atetric.com/atetric/javadoc/org.springframework.batch/spring-batch-core/3.0.0.RELEASE/org/springframework/batch/core/configuration/annotation/StepScopeConfiguration.html
+// http://docs.spring.io/spring-batch/2.2.x/apidocs/org/springframework/batch/core/configuration/annotation/AbstractBatchConfiguration.html
+// scope configuration.stepscope is non-static
+// https://stackoverflow.com/questions/14942304/springs-javaconfig-and-customscopeconfigurer-issue
+// https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Import.html
+
 public class RedisTest {
 	private final String host = "172.19.7.129";
 	private final int db = 23;
